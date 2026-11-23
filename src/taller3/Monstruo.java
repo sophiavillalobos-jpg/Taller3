@@ -44,4 +44,12 @@ public abstract class Monstruo {
 	public void setUsadoEnSesion(boolean usadoEnSesion) {
 		this.usadoEnSesion = usadoEnSesion;
 	}
+	public abstract double calcularPotencialCarrera();
+	public abstract double calcularPotencialCalabazas();
+	public abstract double calcularPotencialLapidas();
+	public abstract double calcularPotencialAmanecer();
+	
+	
+	
+	
 }
